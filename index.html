@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio Website</title>
+
+  <!--Favicons-->
+  <link rel="icon" href="assets/img/globe-solid.svg">
+  <link rel="apple-touch-icon" href="assets/img/globe-solid.svg">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!--Bootstrap 5 CSS-->
+  <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link   rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-utilities.css">
+  <!--MDB CSS-->
+  <link rel="stylesheet" href="assets/css/mdb.min.css">
+  <!--Bootstrap 5 JS-->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!--Google Fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Dancing+Script:wght@400..700&family=Miss+Fajardose&display=swap"
+    rel="stylesheet">
+  <!-- Montserrat Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <!-- Leaflet CSS -->
+  <link href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" rel="stylesheet">
+  <!--Box-Icons CSS-->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-black navbar-dark shadow sticky-top bg-opacity-70">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio <i class='bx bxs-heart'></i></a>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav text-end ms-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Hero -->
+  <header class="header py-5">
+    <div class="container px-5">
+      <div class="row align-items-center">
+        <div class="col-lg-8 col-xl-7 col-xxl-6">
+          <div class="my-5">
+            <h2 class="text-light fw-bold mb-2">Hi! I am <i> Jhaema Nicdao, </i></h2>
+            <h2 class="text-secondary fw-semibold mb-2">a web designer and front-end developer</h2>
+            <p class="lead text-light mb-4">
+              I am dedicated to bringing you responsive and interactive user friendly designs for your website. 
+              Feel free to check out my projects!
+            </p>
+            <div class="d-grid gap-3 d-sm-flex">
+              <a class="btn btn-light btn-large text-uppercase" href="#about">
+                About Me
+              </a>
+              <a class="btn btn-dark text-light btn-large text-uppercase" href="#projects">
+                Check out my work
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-5 col-xxl-6 justify-content-center">
+          <img class="img-fluid rounded-3 my-4" src="assets/images/own.jpg" alt="Hero Image" id="myimg">
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Hero -->
+
+  <main>
+    <!-- About -->
+    <section id="about" class="text-center py-5">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <h2 class="fw-bold">About</h2>
+          <p class="lead text-muted mb-5">
+            I am a freelance web developer who builds elegant, fast, and
+            scalable web applications.
+          </p>
+        </div>
+      </div>
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-lg-4 mx-auto mb-5">
+            <div class="d-flex mb-5 about">
+              <span class="material-icons-outlined m-auto text-primary">palette</span>
+            </div>
+            <h5>Design</h5>
+            <p class="text-muted mb-0">
+              I create beautiful, modern designs optimized for multiple
+              color modes (light and dark themes).
+            </p>
+          </div>
+          <div class="col-lg-4 mx-auto mb-5">
+            <div class="d-flex mb-5 about">
+              <span class="material-icons-outlined m-auto text-primary">code</span>
+            </div>
+            <h5>Development</h5>
+            <p class="text-muted mb-0">
+              I develop responsive, scalable, and fast applications using
+              the best standards and coding practices.
+            </p>
+          </div>
+          <div class="col-lg-4 mx-auto mb-5">
+            <div class="d-flex mb-5 about">
+              <span class="material-icons-outlined m-auto text-primary">settings</span>
+            </div>
+            <h5>Launch & Maintenance</h5>
+            <p class="text-muted mb-0">
+              Once the application is ready, I will help you launch it and
+              teach you how to update and maintain it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+
+    
+
+    <!-- Projects -->
+    <section id="projects" class="text-center py-5">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <h2 class="fw-bold">Projects</h2>
+          <p class="lead text-muted mb-5">View some of my latest projects</p>
+        </div>
+      </div>
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-lg-4 mx-auto mb-5">
+            <div class="card h-100 shadow-lg border-0 bg-light">
+              <img class="card-img-top" src="assets/images/project1.png" alt="Project 1">
+              <div class="card-body p-4">
+                <h5 class="card-title mb-3">Cryptocurrency Dashboard</h5>
+                <div class="mb-2">
+                  <div class="badge bg-primary rounded-pill">Django</div>
+                  <div class="badge bg-primary rounded-pill">React</div>
+                  <div class="badge bg-primary rounded-pill">Material UI</div>
+                </div>
+                <p class="card-text">
+                  A cryptocurrency dashboard app built using React 17,
+                  Material UI 5 and Chart.js 3.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent mb-3">
+                <a class="btn btn-outline-primary btn-sm text-uppercase"
+                  href="https://github.com/BobsProgrammingAcademy/cryptocurrency-dashboard" target="_blank">
+                  <span class="material-icons-outlined me-1">code</span>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mx-auto mb-5">
+            <div class="card h-100 shadow-lg border-0 bg-light">
+              <img class="card-img-top" src="assets/images/project2.png" alt="Project 2">
+              <div class="card-body p-4">
+                <h5 class="card-title mb-3">Portfolio Website</h5>
+                <div class="mb-2">
+                  <div class="badge bg-primary rounded-pill">Django</div>
+                  <div class="badge bg-primary rounded-pill">React</div>
+                  <div class="badge bg-primary rounded-pill">Material UI</div>
+                </div>
+                <p class="card-text">
+                  A portfolio website built using Django 3, Next.js 12 and
+                  Material UI 5 that uses a PostgreSQL database to store
+                  data.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent mb-3">
+                <a class="btn btn-outline-primary btn-sm text-uppercase"
+                  href="https://github.com/BobsProgrammingAcademy/portfolio-website" target="_blank">
+                  <span class="material-icons-outlined me-1">code</span>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mx-auto mb-5">
+            <div class="card h-100 shadow-lg border-0 bg-light">
+              <img class="card-img-top" src="assets/images/project3.png" alt="Project 3">
+              <div class="card-body p-4">
+                <h5 class="card-title mb-3">Image Classification</h5>
+                <div class="mb-2">
+                  <div class="badge bg-primary rounded-pill">Django</div>
+                  <div class="badge bg-primary rounded-pill">React</div>
+                  <div class="badge bg-primary rounded-pill">Material UI</div>
+                </div>
+                <p class="card-text">
+                  An image classification app built using TensorFlow 2,
+                  Django 3, React 17 and Material UI 5.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent mb-3">
+                <a class="btn btn-outline-primary btn-sm text-uppercase"
+                  href="https://github.com/BobsProgrammingAcademy/image-classification-mnist" target="_blank">
+                  <span class="material-icons-outlined me-1">code</span>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects -->
+
+    
+    <!-- Testimonials -->
+    <section id="testimonials" class="text-center py-5">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <h2 class="fw-bold">Testimonials</h2>
+          <p class="lead text-muted mb-5">Check what clients have said about my work</p>
+        </div>
+      </div>
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-lg-4 mx-auto mb-5">
+            <div class="text-center fs-4 fst-italic mb-4 px-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+              quis elit ut tellus tempus pharetra.
+            </div>
+            <div class="d-flex align-items-center justify-content-center testimonial">
+              <img class="rounded-circle me-3" src="assets/images/user1.png" alt="User 1">
+              <div class="fw-bold">
+                Amy Jones
+                <span class="text-primary mx-1">/</span>
+                CEO, Company 1
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mx-auto mb-5">
+            <div class="text-center fs-4 fst-italic mb-4 px-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+              quis elit ut tellus tempus pharetra.
+            </div>
+            <div class="d-flex align-items-center justify-content-center testimonial">
+              <img class="rounded-circle me-3" src="assets/images/user2.png" alt="User 2">
+              <div class="fw-bold">
+                James Smith
+                <span class="text-primary mx-1">/</span>
+                CEO, Company 2
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mx-auto mb-5">
+            <div class="text-center fs-4 fst-italic mb-4 px-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+              quis elit ut tellus tempus pharetra.
+            </div>
+            <div class="d-flex align-items-center justify-content-center testimonial">
+              <img class="rounded-circle me-3" src="assets/images/user3.png" alt="User 3">
+              <div class="fw-bold">
+                Mary Richards
+                <span class="text-primary mx-1">/</span>
+                CEO, Company 3
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Testimonials -->
+
+
+
+    <!-- Contact -->
+    <section id="contact" class="text-center py-5">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <h2 class="fw-bold">Contact</h2>
+          <p class="lead text-muted mb-5">
+            Do you need a full-stack web developer? I would love to hear
+            from you.
+          </p>
+        </div>
+      </div>
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col-xl-5 col-xxl-6 mb-5">
+            <div id="map"></div>
+          </div>
+          <div class="col-lg-8 col-xl-7 col-xxl-6 mb-5">
+            <div class="mb-5">
+              <h6 class="text-uppercase mb-2">Address</h6>
+              <p class="lead mb-0">Dublin, Ireland</p>
+            </div>
+            <div class="mb-5">
+              <h6 class="text-uppercase mb-2">Phone</h6>
+              <p class="lead mb-0">123123123</p>
+            </div>
+            <div class="mb-5">
+              <h6 class="text-uppercase mb-2">Email</h6>
+              <p class="lead mb-0">bobsprogrammingacademy@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+  </main>
+
+
+
+
+  <!-- Footer -->
+  <footer class="text-center text-secondary py-4">
+    <div class="container px-5 mb-2">Copyright &copy; 2022 Bob's Programming Academy.</div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+
+  <!-- Custom JS -->
+  <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

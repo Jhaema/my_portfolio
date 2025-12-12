@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.material-icons-outlined {
+  vertical-align: middle;
+  line-height: 1px;
+}
+.header{
+  background: linear-gradient(to top, #000000 0%, #1a1a1d 100%);
+  font-family: "Poiret One", sans-serif;
+}
+.navbar{
+  opacity: calc(0.9);
+}
+.navbar-brand{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+#myimg{
+  background-color: #000000;
+}
+#about{
+  background-image: url(/assets/images/bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card > img {
+  height: 250px;
+}
+#projects{
+  background: linear-gradient(to bottom, #000000 0%, #101010 100%);
+}
+.testimonial > img {
+  height: 50px;
+  width: 50px;
+}
+#testimonials{
+  background-color: #080808;
+}
+#map {
+  height: 300px;
+}
+#contact{
+ background-color: #101010;
+}
+footer{
+  background-color:#000000;
+}
+
