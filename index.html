@@ -88,8 +88,8 @@
               <a class="btn btn-light btn-large text-uppercase" href="#about">
                 About Me
               </a>
-              <a class="btn btn-dark text-light btn-large text-uppercase" href="#projects">
-                Check out my work
+              <a class="btn btn-dark text-light btn-large text-uppercase" onclick="openPDF()">
+                View my Resume
               </a>
             </div>
           </div>
@@ -107,10 +107,11 @@
     <section id="about" class="text-center py-5">
       <div class="container py-5">
         <div class="row justify-content-center">
-          <h2 class="fw-bold">About</h2>
-          <p class="lead text-muted mb-5">
-            I am a freelance web developer who builds elegant, fast, and
-            scalable web applications.
+          <h2 class="fw-bold text-light">About Me</h2>
+          <p class="lead text-secondary mb-5">
+            An Information Technology graduate that loves to explore the world of modern technology and likes to turn vision into reality.
+            Adept at creating responsive and user-friendly websites using HTML, CSS, and Bootstrap. Have an experience handling IT Projects
+            and skilled in using Microsoft Office Tools for project documentation and accomplishing to administrative tasks.
           </p>
         </div>
       </div>
@@ -352,6 +353,11 @@
 
   <!-- Custom JS -->
   <script src="assets/js/scripts.js"></script>
+  <script>
+  function openPDF() {
+    window.open("https://drive.google.com/file/d/1rcMy-CCC-m1LqykffhNCWZy9NXzT5XKw/view?usp=sharing", "_blank");
+  }
+  </script>
 </body>
 
 </html>
