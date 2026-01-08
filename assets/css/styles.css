@@ -33,6 +33,7 @@ body {
 
 .card > img {
   height: 250px;
+  width: auto;
 }
 #projects{
   background: linear-gradient(to bottom, #000000 0%, #101010 100%);
@@ -48,7 +49,7 @@ body {
   height: 300px;
 }
 #contact{
- background-color: #101010;
+ background-color: #000000;
 }
 footer{
   background-color:#000000;
